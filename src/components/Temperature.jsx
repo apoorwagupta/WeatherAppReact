@@ -17,7 +17,7 @@ function Temperature({setCity,stats}) {
                     type='text'
                     className='bg-slate-600 border border-slate-500 text-slate-200 placeholder-slate-400 text-md w-60 p-2 focus:outline-none focus:border-slate-400 '
                     placeholder='Enter your City Name'
-                    onChange={handleCityChange}
+                    onClick={handleCityChange}
                     defaultValue='Mumbai'
                 />
                 <div className='m-4'>
